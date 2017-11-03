@@ -1,1 +1,1 @@
-console.log(11);
+document.write('hello world, webpack!')
