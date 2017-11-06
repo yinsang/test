@@ -1,3 +1,4 @@
+let path = require('path');
 module.exports = {
     entry: './app.js',
     output:{
@@ -5,9 +6,9 @@ module.exports = {
         filename: 'bundle.js'
     },
     devServer:{
+        compress: true,
         port:7000,
         open: true,
-        hot: true,
         inline: true
     }
 }
