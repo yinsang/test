@@ -1,1 +1,1 @@
-document.write('hello world, webpack;in wyp')
+document.write('hello world, webpack;in wyp change banner')
