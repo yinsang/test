@@ -67,7 +67,10 @@
 /* 0 */
 /***/ (function(module, exports) {
 
+document.write('hello world, webpack;')
+console.log(1);
 document.write('hello world, webpack;1')
+
 
 /***/ })
 /******/ ]);
