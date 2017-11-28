@@ -9,7 +9,7 @@ const store = createStore(counter);
 
 function counter(state = 3, action) {
     switch(action.type) {
-        case 'click':
+        case 'click1':
         return state + 1;
         default:
         return state
