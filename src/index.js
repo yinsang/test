@@ -1,8 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import registerServiceWorker from './registerServiceWorker';
+import Routes from './routes';
+import {createStore} from 'redux'
+import {Provider} from 'react-redux';
+const store = createStore(counter);
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+function counter(state = 3, action) {
+    switch(action.type) {
+        case 'click':
+        return state + 1;
+        default:
+        return state
+    }
+    // return 
+} 
+ReactDOM.render(
+    <Provider store={store}>
+        <Routes  />
+    </Provider>
+    , document.getElementById('root'));
+
