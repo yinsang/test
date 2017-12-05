@@ -1,9 +1,10 @@
 import './loading.css';
 var React = require('react');
+
 var App = React.createClass({
    getInitialState: function() {
        return {
-           count: 2
+           count: 0
        };
    },
 
