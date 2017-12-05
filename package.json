@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "hello-react",
   "version": "0.1.0",
   "private": true,
@@ -27,20 +26,4 @@
     "webpack": "^3.9.1"
   },
   "proxy": "http://0.0.0.0:8899"
-=======
-  "name": "webpack-study",
-  "version": "1.0.0",
-  "description": "",
-  "main": "webpack.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack-dev-server",
-    "build": "webpack"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "webpack-dev-server": "^2.9.4"
-  }
->>>>>>> 09fd33cb3dc5b6ed73297b442297fc5ba0c59f11
 }
